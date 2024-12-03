@@ -1,3 +1,15 @@
+'''Essa automação pega dados de um site específico e joga no excel Microsoft 365, criando
+uma tabela com um gráfico, facilitando a compreesão administrativa
+Foi projetada para um site especifico porém é possível criar para todas os sites de forma ampla
+'''
+
+
+
+
+
+
+
+
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
