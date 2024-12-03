@@ -1,3 +1,10 @@
+'''Esse é um projeto  básico de automação no qual ele abre google chrome na aba de pesquisas, identifica
+onde fica a caixa de consulta, escreve "you tube" em sequência usando uma ferramente que funciona como se fosse pressionar
+o botão enter do teclado, em seguida que abre o you tube repete o processo de pesquisa e procura por um canal aleatório
+que coloquei no código, assim que o canal é identificado ele abre o primeiro link de video do canal'''
+
+
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
